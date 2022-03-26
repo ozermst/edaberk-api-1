@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_experiences",
+  "info": {
+    "singularName": "work-experience",
+    "pluralName": "work-experiences",
+    "displayName": "Work Experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date_from": {
+      "type": "date"
+    },
+    "date_to": {
+      "type": "date"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}
