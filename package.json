@@ -16,6 +16,7 @@
     "@strapi/strapi": "4.1.7",
     "mysql": "^2.18.1",
     "slugify": "^1.6.5",
+    "sqlite3": "^5.0.2",
     "strapi-provider-upload-google-cloud-storage": "^4.0.0"
   },
   "author": {
