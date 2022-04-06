@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "interests",
+  "collectionName": "members",
   "info": {
-    "singularName": "interest",
-    "pluralName": "interests",
-    "displayName": "Interest",
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
     "description": ""
   },
   "options": {
@@ -12,19 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "full_name": {
       "type": "string",
-      "unique": true,
       "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "full_name"
     },
-    "description": {
-      "type": "text"
+    "email": {
+      "type": "email"
     },
-    "content": {
+    "bio": {
       "type": "richtext"
     },
     "featured_image": {
@@ -34,6 +33,15 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "workplace": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
     }
   }
 }

@@ -116,3 +116,4 @@ exports
 *.cache
 build
 .strapi-updater.json
+convert-json-to-base64.js
